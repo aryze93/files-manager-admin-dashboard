@@ -1,0 +1,50 @@
+.breadcrumb {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 1.5714285714285714;
+  list-style: none;
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+  }
+
+  a {
+    color: rgba(0, 0, 0, 0.45);
+    transition: color 0.2s;
+    padding: 0 4px;
+    border-radius: 4px;
+    height: 22px;
+    display: inline-block;
+    margin-inline: -4px;
+    touch-action: manipulation;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: rgba(0, 0, 0, 0.88);
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+
+  &__divider {
+    margin-inline: 8px;
+  }
+
+  span {
+    user-select: none;
+  }
+}
